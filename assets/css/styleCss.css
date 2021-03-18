@@ -1,0 +1,72 @@
+
+section {
+  position: relative;
+  background-color: black;
+  height: 665px;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+section video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+section .container {
+  position: relative;
+  z-index: 2;
+}
+
+section .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+.linha-vertical {
+  height: 100px;/*Altura da linha*/
+  border-left: 2px solid;/* Adiciona borda esquerda na div como ser fosse uma linha.*/
+}
+
+#img-bg{
+  background-image: url('https://newsroom.porsche.com/.imaging/mte/porsche-templating-theme/teaser_720x406x2/dam/US-local/Press-Releases/2020/March-2020/20200303-911-Turbo-S/porsche_newsroom_20200309-(1)/high_911_turbo_s_coup%EF%BF%BD_2020_porsche_ag_8.jpeg/jcr:content/high_911_turbo_s_coup%EF%BF%BD_2020_porsche_ag_8.jpeg'); 
+  min-height: 601px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+P.blocktext {
+  margin-left: auto;
+  margin-right: auto;
+  width: 6em
+}
+
+footer{
+  position: relative;
+  background-color: black;
+  width: 100%;
+  overflow: hidden;
+  text-decoration-color: white;
+}
+
+.teste-size{
+  height: auto;
+}
+
